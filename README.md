@@ -121,7 +121,7 @@ The model and dashboard help:
 
 **Adam Umar**  
 Aspiring Data Scientist | Python, ML, DL, Data Engineering
-[Download Presentation](SpaceX Predictive Analysis Findings Report.pdf)
+[View Final Presentation (PDF)](SpaceX%20Predictive%20Analysis%20Findings%20Report.pdf)
 [LinkedIn](https://www.linkedin.com/in/muhammad-adam-umar-26baaa2b5/) • [GitHub](https://github.com/MAdamUmar/)
 
 ---
