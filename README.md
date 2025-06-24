@@ -49,7 +49,7 @@ Visualizations included:
 - Launch site mapping
 - Orbit-type success patterns
 
-![Flight Number vs Launch Site](figures/Flight-Number-vs-Launch-Site.png)
+![Flight Number vs Launch Site](figures/Flight-number-vs-Launch-Site.png)
 
 *Figure 1: Scatter Plot showing relation between flight number nd launch site.*
 
@@ -101,7 +101,7 @@ The model and dashboard help:
 - **Advise bidding strategy** for reusability-based pricing
 - **Guide engineering focus** on successful configurations
 
-![Launch Success Rates](figures/Success Rate.png)
+![Launch Success Rates](figures/Success-Rate.png)
 
 *Figure 3: Comparing Success Rates*
 
