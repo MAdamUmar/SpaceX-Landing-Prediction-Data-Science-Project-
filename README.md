@@ -49,9 +49,10 @@ Visualizations included:
 - Launch site mapping
 - Orbit-type success patterns
 
-![Flight Number vs Launch Site](figures/Flight Number vs Launch Site.png)
+![Flight Number vs Launch Site](figures/Flight-Number-vs-Launch-Site.png)
 
 *Figure 1: Scatter Plot showing relation between flight number nd launch site.*
+
 ---
 
 ## 🤖 Model Building
