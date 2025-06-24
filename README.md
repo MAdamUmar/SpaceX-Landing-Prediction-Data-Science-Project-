@@ -49,6 +49,9 @@ Visualizations included:
 - Launch site mapping
 - Orbit-type success patterns
 
+![Flight Number vs Launch Site](figures/Flight Number vs Launch Site.png)
+
+*Figure 1: Scatter Plot showing relation between flight number nd launch site.*
 ---
 
 ## 🤖 Model Building
@@ -74,6 +77,10 @@ Interactive dashboards were built to allow exploration of:
 - Payload and orbit combinations
 - Success frequency maps
 
+![Model Dashboard](figures/Dashboard.png)
+
+*Figure 2: Interactive dashboard visualizing launch success by payload*
+
 Map visualizations were created using **Folium** to display launch locations and success outcomes.
 
 ---
@@ -92,6 +99,10 @@ The model and dashboard help:
 - **Predict mission success** before launches
 - **Advise bidding strategy** for reusability-based pricing
 - **Guide engineering focus** on successful configurations
+
+![Launch Success Rates](figures/Success Rate.png)
+
+*Figure 3: Comparing Success Rates*
 
 ---
 
