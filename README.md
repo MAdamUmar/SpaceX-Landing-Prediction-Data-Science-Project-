@@ -1,6 +1,6 @@
 # 🚀 SpaceX Falcon 9 First Stage Landing Prediction
 
-This project is the capstone of the **IBM Data Science Professional Certificate**. The objective is to predict the successful landing of the SpaceX Falcon 9 rocket's first stage, which is crucial for reducing launch costs through reusability.
+This is the final capstone project submitted as part of the **IBM Data Science Professional Certificate**. The objective is to predict the successful landing of the SpaceX Falcon 9 rocket's first stage, which is crucial for reducing launch costs through reusability.
 
 ---
 
