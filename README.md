@@ -4,7 +4,7 @@ This is the final capstone project submitted as part of the **IBM Data Science P
 
 ---
 
-## 🧠 Project Objective
+## Project Objective
 
 SpaceX's ability to reuse rocket boosters hinges on successful first-stage landings.  
 As a data scientist for a competing aerospace firm, your task is to:
@@ -27,7 +27,7 @@ This end-to-end pipeline includes:
 
 ---
 
-## 🔧 Tools & Technologies
+## Tools & Technologies
 
 - **Languages**: Python, SQL  
 - **Libraries**: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `plotly`, `dash`, `folium`, `bs4`  
@@ -35,6 +35,23 @@ This end-to-end pipeline includes:
 - **Visualization**: Interactive dashboards using Dash and map rendering using Folium
 
 ---
+
+## Data Collection
+
+We collected the data primarily from 2 sources, using 2 methods:
+
+1. Using SpaceX’s open REST API to pull live Falcon 9 launch data. The API provides structured JSON data containing:
+- Mission name
+- Launch date and time
+- Rocket details
+- Payload mass
+- Launch outcome (success/failure)
+- Landing type and outcome
+- Launch site location
+
+2. To supplement the API data, the project scrapes Wikipedia’s Falcon 9 launch log page to retrieve structured launch performance history and details not present in the API.
+- BeautifulSoup and requests were used to extract table data.
+- Specific HTML tables were parsed using `pandas.read_html()`
 
 ## 📊 Exploratory Data Analysis
 
@@ -49,13 +66,15 @@ Visualizations included:
 - Launch site mapping
 - Orbit-type success patterns
 
+EDA was performed primarily with Pandas and Matplotlib after getting a working understanding using SQL queries.
+
 ![Flight Number vs Launch Site](figures/Flight-number-vs-Launch-Site.png)
 
 *Figure 1: Scatter Plot showing relation between flight number nd launch site.*
 
 ---
 
-## 🤖 Model Building
+## Model Building
 
 Several classification models were trained and evaluated using accuracy, F1 score, precision, and recall.  
 Cross-validation and grid search were applied to optimize hyperparameters.
@@ -67,11 +86,11 @@ Cross-validation and grid search were applied to optimize hyperparameters.
 | Decision Tree      | 0.79     | 0.77     |
 | KNN                | 0.76     | 0.74     |
 
-✅ **SVM with RBF kernel performed best overall.**
+**SVM with RBF kernel performed best overall.**
 
 ---
 
-## 🌍 Dashboards & Maps
+## Dashboards & Maps
 
 Interactive dashboards were built to allow exploration of:
 - Launch outcomes by site
@@ -86,7 +105,7 @@ Map visualizations were created using **Folium** to display launch locations and
 
 ---
 
-## 📝 Key Insights
+## Key Insights
 
 - Payloads between **2,000–5,000 kg** had the highest success rates.
 - **CCAFS SLC 40** and **KSC LC 39A** were most reliable for landings.
